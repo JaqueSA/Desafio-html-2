@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio2</title>
+</head>
+<body>
+    <header class="flex align-itens-center">
+        <h1 class="center">ME ACHA!</h1>
+        <h2 class="center">Encontre um endereço pelo numero do cep</h2>
+        <div>
+            <span class="material-icons icons-list icon-search flex align-itens-center">
+                travel_explore
+                </span>
+        </div>
+    </header>
+    <section id="search-area" class="flex align-itens-center ">
+        <form method="get" name="busca">
+            <fieldset id="campos">
+                <label for="cep">Cep</label>
+                <input type="text" required class="txt" id="cep" name="cep" value="" />
+                <label for="rua">Rua</label>
+                <input type="text" required class="txt" id="rua" name="rua" value="" />
+                <label for="bairro">Bairro</label>
+                <input type="text" required class="txt" id="bairro" name="bairro" value="" />
+                <label for="city">Cidade</label>
+                <input type="text" required class="txt" id="cidade" name="cidade" value="" />
+                <label for="estado">Estado</label>
+                <input type="text" required class="txt" id="estado" name="estado" value="" />
+                <input class= "botao flex"  type="button" value="BUSCAR" class="txt">
+                <label for=""></label>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
